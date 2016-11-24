@@ -1,0 +1,41 @@
+header {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: left
+}
+body {
+    background-color: #A9A9A9;
+}
+
+ul {
+    color: #A9A9A9
+}
+
+.ednfooter {
+    text-align: center;
+    font-weight: bold
+}
+
+.hrefwhite  {
+    color: white;
+    font-size: 21px;
+    font-weight: bold 
+}
+
+.current {
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+
+a:hover {
+    background-color: #D3D3D3;
+}
+
+.boldtext {
+    font-size: 19px;
+    font-weight: bold;
+}

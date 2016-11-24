@@ -1,0 +1,28 @@
+.container {
+background: rgb(213,232,252);
+background: -moz-linear-gradient(45deg,  rgba(213,232,252,1) 0%, rgba(172,203,235,1) 23%, rgba(174,205,237,1) 42%, rgba(193,222,251,1) 53%);
+background: -webkit-linear-gradient(45deg,  rgba(213,232,252,1) 0%,rgba(172,203,235,1) 23%,rgba(174,205,237,1) 42%,rgba(193,222,251,1) 53%);
+background: linear-gradient(45deg,  rgba(213,232,252,1) 0%,rgba(172,203,235,1) 23%,rgba(174,205,237,1) 42%,rgba(193,222,251,1) 53%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e8fc', endColorstr='#c1defb',GradientType=1 );
+border: 1px solid black;
+
+}
+.calculator {
+    border: 1px solid silver
+}
+
+   .result{
+        border: 1px solid silver;
+        border-radius: 5px
+    }
+
+
+.silverboard {
+    border: 1px solid #F5F5F5;
+}
+
+.nulite {
+    border: 1px solid silver;
+    border-radius: 5px;
+}
+

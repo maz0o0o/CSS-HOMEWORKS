@@ -1,0 +1,78 @@
+ table, th, tr, td, div, p, span, body {
+    margin: 0;
+    padding: 0;
+ }
+
+thead {
+   color: white;
+   background-color: #54B706;
+   font-weight: 100;
+
+}
+
+.silverbg {
+    background-color: #ECECD8
+}
+
+.borderstyle {
+   border-style: ridge;
+   font-size: 12px;
+   font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.imnggermany:before {
+    background-image: url("http://icons.iconarchive.com/icons/custom-icon-design/flag-2/256/Germany-Flag-icon.png");
+    background-size: 20px 20px;
+     display: inline-block;
+    width: 20px; 
+    height: 20px;
+    content:"";
+    position: relative;
+    left: 2px;
+     margin-right: 9px;
+    }
+
+.mexicoflag:before {
+    background-image: url("http://www.pngall.com/wp-content/uploads/2016/06/Mexico-Flag-PNG-Image.png");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    position: relative;
+    left: 4px;
+     margin-right: 9px;
+  
+}
+
+.ukflag:before {
+    background-image: url("http://dvke.ru/wp-content/uploads/2016/03/united_kingdom_glossy_wave_icon_640.png");
+    background-size: 20px 20px;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    content: "";
+    position: relative;
+    left: 4px;
+    margin-right: 9px;
+  
+}
+
+table {
+    border-collapse: collapse;  
+    
+}
+
+table, td {
+    border: 1px solid silver;
+    padding: 2px;
+
+}
+
+th {
+    padding: 5px;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif
+}
+

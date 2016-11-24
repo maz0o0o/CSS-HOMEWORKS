@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: Edwardian script ITC;
+   src: url("//db.onlinewebfonts.com/t/ca6f91c0cad2fe33614026d17117601d.eot");
+}
+
+
+div::first-letter {
+    font-family: Edwardian script ITC;
+    font-size: 40px;
+    color: #0094ff;
+}
+
+div::first-line {
+    font-weight: bold;
+    line-height: 40px;
+    color: #0094ff
+}
+
+div {
+     color: #0094ff
+}

@@ -1,0 +1,90 @@
+body, table, th, tr, td, div, p, span {
+    margin: 0;
+    padding: 0;
+}
+
+.tbgcolor {
+    padding: 10px 0 10px 5px;
+    background-color: #595959;
+    width: 300px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: justify;
+      position: relative;
+    left: 0px;
+}
+
+th {
+    font-weight: 100;
+}
+
+.headerclass {
+      color: #BEBEBE;
+       text-align: left;
+       font-size: 18px;
+       position: relative;  
+       top: -5px;
+       left: -2px
+}
+
+.rowhead {
+    text-align: left;
+    color: #BEBEBE;
+     font-size: 11px;
+       position: relative;
+    left: -12px;
+}
+
+
+
+.orangecolor {
+    color: #DD6A37;
+     font-size: 11px;
+       position: relative;
+    left: -12px;
+}
+
+.classred {
+    color: red;
+     font-size: 11px;
+       position: relative;
+    left: -12px;
+}
+
+.masterclass {
+    color: #F8EEE3;
+    font-style: oblique;
+    font-size: 11px;
+    padding: 9px;
+     position: relative;
+    left: -12px;
+    
+}
+    
+    .topcolor {
+        color: #F0E68C;
+        font-size: 11px;  position: relative;
+        left: -12px;
+        margin-top: 5px;
+
+     
+    }
+
+#img:before {
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/PlastickyMagentaBall.png/220px-PlastickyMagentaBall.png');
+    background-size: 12px 12px;
+    display: inline-block;
+    width: 12px; 
+    height: 12px;
+    content:"";
+      position: relative;
+    left: -3px;
+   
+}
+
+#img {
+    font-size: 12px;
+    color: #F0E68C;
+    position: relative;
+    left: -12px;
+}
+
