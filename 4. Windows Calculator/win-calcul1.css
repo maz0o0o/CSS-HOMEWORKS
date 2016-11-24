@@ -4,26 +4,37 @@ background: -moz-linear-gradient(45deg,  rgba(213,232,252,1) 0%, rgba(172,203,23
 background: -webkit-linear-gradient(45deg,  rgba(213,232,252,1) 0%,rgba(172,203,235,1) 23%,rgba(174,205,237,1) 42%,rgba(193,222,251,1) 53%);
 background: linear-gradient(45deg,  rgba(213,232,252,1) 0%,rgba(172,203,235,1) 23%,rgba(174,205,237,1) 42%,rgba(193,222,251,1) 53%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e8fc', endColorstr='#c1defb',GradientType=1 );
-border: 1px solid black;
+width: 45%;
+height: 45%;
+border-radius: 5px;
+
 
 }
 .calculator {
-    border: 1px solid silver
+    border: 1px solid silver;
+    
 }
 
    .result{
-        border: 1px solid silver;
-        border-radius: 5px
+       background: rgb(239,243,252);
+background: -moz-linear-gradient(top,  rgba(239,243,252,1) 0%, rgba(229,229,229,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(239,243,252,1) 0%,rgba(229,229,229,1) 100%);
+background: linear-gradient(to bottom,  rgba(239,243,252,1) 0%,rgba(229,229,229,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3fc', endColorstr='#e5e5e5',GradientType=0 );
+
+        border-radius: 5px;
+        text-align: right
     }
 
 
 .silverboard {
-    border: 1px solid #F5F5F5;
+    border: 1px solid darkblue;
 }
 
 .nulite {
     border: 1px solid silver;
     border-radius: 5px;
+    background-color: #D9E4F1
 }
 .logo {
     width: 20px;
@@ -32,4 +43,23 @@ border: 1px solid black;
 .exit-buttons {
     float: right;
 }
+.bukvite {
+    background-color: #D9E4F1
+}
+.hex {
+    border: 1px solid darkblue;
+    width: 30%;
+    padding: -5px 
+}
+.qword {
+       border: 1px solid darkblue;
+    width: 30%;
+    padding: -5px 
+}
+li {
+    list-style: none;
+ 
+ 
+}
+ 
 
