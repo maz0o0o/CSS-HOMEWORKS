@@ -12,6 +12,12 @@ border-radius: 5px;
 }
 .calculator {
     border: 1px solid silver;
+    background: rgb(213,232,252);
+background: -moz-linear-gradient(45deg,  rgba(213,232,252,1) 0%, rgba(172,203,235,1) 23%, rgba(174,205,237,1) 42%, rgba(193,222,251,1) 53%);
+background: -webkit-linear-gradient(45deg,  rgba(213,232,252,1) 0%,rgba(172,203,235,1) 23%,rgba(174,205,237,1) 42%,rgba(193,222,251,1) 53%);
+background: linear-gradient(45deg,  rgba(213,232,252,1) 0%,rgba(172,203,235,1) 23%,rgba(174,205,237,1) 42%,rgba(193,222,251,1) 53%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d5e8fc', endColorstr='#c1defb',GradientType=1 );
+
     
 }
 
@@ -21,24 +27,37 @@ background: -moz-linear-gradient(top,  rgba(239,243,252,1) 0%, rgba(229,229,229,
 background: -webkit-linear-gradient(top,  rgba(239,243,252,1) 0%,rgba(229,229,229,1) 100%);
 background: linear-gradient(to bottom,  rgba(239,243,252,1) 0%,rgba(229,229,229,1) 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3fc', endColorstr='#e5e5e5',GradientType=0 );
-
         border-radius: 5px;
-        text-align: right
+        text-align: right;
+       border: 1px solid blue;
+       width: 95%;
+      font-size: 25px;
+      
     }
 
 
 .silverboard {
     border: 1px solid darkblue;
+    width: 50px;
+    border-radius: 5px
 }
 
 .nulite {
-    border: 1px solid silver;
+    border: 1px solid darkblue;
     border-radius: 5px;
-    background-color: #D9E4F1
+    background-color: #D9E4F1;
+    margin-right: 30px;
+    width: 95%;
+    text-align: center;
+    color: darkblue;
+    
+   
 }
 .logo {
-    width: 20px;
+    width: 25px;
     height: 25px;
+    margin-top: 5px;
+    
 }
 .exit-buttons {
     float: right;
@@ -48,8 +67,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3fc', end
 }
 .hex {
     border: 1px solid darkblue;
-    width: 30%;
-    padding: -5px 
+    width: 20%;
+    padding: -5px ;
+    border-radius: 5px;
+
+
 }
 .qword {
        border: 1px solid darkblue;
@@ -58,8 +80,26 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3fc', end
 }
 li {
     list-style: none;
- 
- 
+
 }
- 
+ .bukvite {
+     border: 0;
+     width: 95%;
+   
+ }
+
+.list {
+    width: 90%;
+    border: 1px solid silver;
+background: rgb(255,255,255);
+background: -moz-linear-gradient(top,  rgba(255,255,255,1) 0%, rgba(204,197,200,1) 100%);
+background: -webkit-linear-gradient(top,  rgba(255,255,255,1) 0%,rgba(204,197,200,1) 100%);
+background: linear-gradient(to bottom,  rgba(255,255,255,1) 0%,rgba(204,197,200,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ccc5c8',GradientType=0 );
+
+}
+.silvernumbers {
+    color: #696969;
+  
+}
 
