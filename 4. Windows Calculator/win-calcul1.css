@@ -25,4 +25,11 @@ border: 1px solid black;
     border: 1px solid silver;
     border-radius: 5px;
 }
+.logo {
+    width: 20px;
+    height: 25px;
+}
+.exit-buttons {
+    float: right;
+}
 
