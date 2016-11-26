@@ -202,3 +202,16 @@ td {
 span {
     font-weight: 700;
 }
+
+.chisla:hover {
+  background: silver
+}
+.ce:hover {
+    background: silver
+}
+.purvite:hover {
+    background: silver
+}
+li:hover {
+    background: silver
+}
