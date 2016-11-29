@@ -15,9 +15,8 @@ box-shadow: 1px 4px 3px 5px #C1DEFB;
     border: 1px solid #696969;
    background-color: #D9E4F1;
 border-radius: 2px;
-display: table;
 margin: auto;
-height: 80px;
+height: 100%;
     width: 98%;
 
 
@@ -78,13 +77,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3fc', end
 }
 .bukvite {
     background-color: #D9E4F1;
-    margin: auto
+    margin: auto;
+    
     
 }
 .hex {
     border: 1px solid darkblue;
     width: 20%;
-    padding: -5px ;
+    
     border-radius: 5px;
     color: #00388D;
     font-weight: 700;
@@ -97,6 +97,8 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eff3fc', end
     padding: -5px ;
      color: #00388D;
      font-weight: 700;
+     border-radius: 5px;
+     
 }
 li {
     list-style: none;
@@ -105,7 +107,7 @@ li {
  .bukvite {
      border: 0;
      width: 95%;
-   
+     
  }
 
 .list {
